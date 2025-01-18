@@ -1,7 +1,6 @@
 from langchain_groq import ChatGroq
 from langchain_community.utilities import SQLDatabase
 from phi.utils.pprint import pprint_run_response
-from langchain_community.embeddings import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 import os
 
